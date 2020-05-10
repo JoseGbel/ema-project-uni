@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Introduction to HTML5 Forms</title>
+      <link rel="stylesheet" href="q2a.css"
+   </head>
+   <body>
+     <header>
+       <div id="ouwc">
+        <a href="dummy.html"><b><h1>Open University</h1></b></a>
+        <p id="walkingclub"><a href="dummy.html">Walking Club</a></p>
+      </div>
+       <nav id="navigation">
+         <a href="q2a.html"><b>Walk Events</b></a> |
+         <a href="dummy.html">Other Events</a> |
+         <a href="dummy.html">News</a> |
+         <a href="dummy.html">Announcements</a> |
+         <a href="dummy.html">Members</a> |
+         <a href="dummy.html" id="signout">Sign out</a>
+      </nav>
+      <div id="username">John Doe</div>
+     </header>
+     <main>
+       <div id="page-name-container">
+         <div id="page-name">
+           Add walk event
+         </div>
+       </div>
+       <div id="formcontainer">
+         <div id="form-div">
+           <form method="post" name="walk-form" id="walk-form" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            <input type="hidden" name="sessionID" value="12345678-09ab-1111-cdef" id="hidden-field">
+            <label for="name">Event Name:</label><br>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="date">Event Date:</label><br>
+            <input type="date" name="date" id="date" class="center"><br><br>
+            <label for="time">Start time:</label><br>
+            <input type="time" name="time" id="time" class="center"><br><br>
+            <label for="distance">Distance (in miles):</label><br>
+            <input type="number" name="distance" id="distance" class="center"><br><br>
+            <label for="mpoint">Meeting point:</label><br>
+            <input type="text" name="mpoint" id="mpoint"><br><br>
+            <label for="notes">Enter notes (if applicable):</label><br>
+            <textarea name="notes" id="notes" rows="6" cols ="29" style="font-size: 1.3em"></textarea><br>
+            <div id="buttons">
+              <input type="submit" id="send" value="Submit">
+              <input type="reset" id="reset" value="Reset">
+            </div>
+           </form>
+         </div>
+       </div>
+     </main>
+     <footer>
+      <div id="footer-container">
+         OU Walking Club 2020
+      </div>
+     </footer>
+   </body>
+</html>
