@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background: #009900;
+    background: #D2D2D2;
   margin: 0;
   font-family: Arial, serif;
 }
@@ -99,7 +99,7 @@ nav {
 }
 
 #footer-container {
-    background: #009900;
+    background: #D2D2D2;
     color: black;
     padding-left: 40px;
     padding-top: 6px;
@@ -137,7 +137,7 @@ nav {
 }
 
 #signout {
-  color: #2BAE00;
+  color: #FFCCCC;
   font-weight: bold;
   font-size: 1.3em;
 }
