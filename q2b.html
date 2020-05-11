@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="Jose Garcia" />
+      <!-- Set viewport to ensure this page scales correctly on mobile devices -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Open University Walking Club</title>
+      <link rel="stylesheet" href="q2b.css">
+   </head>
+   <body>
+     <header>
+       <div id="ouwc" class="ouwc">
+        <a href="dummy.html"><h1>Open University</h1></a>
+        <p id="walkingclub"><a href="dummy.html">Walking Club</a></p>
+      </div>
+       <nav id="navigation">
+         <ul>
+           <li><a href="q2b.html">Walk Events</a><span class="separator"> |</span></li>
+           <li><a href="dummy.html">Other Events</a><span class="separator"> |</span></li>
+           <li><a href="dummy.html">News</a><span class="separator"> |</span></li>
+           <li><a href="dummy.html">Announcements</a><span class="separator"> |</span></li>
+           <li><a href="dummy.html">Members</a><span class="separator"> |</span></li>
+           <li><a href="dummy.html" id="signout">Sign out</a></li>
+         </ul>
+      </nav>
+      <div id="username">John Doe</div>
+     </header>
+     <main>
+       <div id="page-name-container">
+         <div id="page-name">
+           Add walking event
+         </div>
+       </div>
+       <div id="formcontainer">
+         <div id="form-div">
+           <form method="post" name="walk-form" id="walk-form" action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php">
+            <input type="hidden" name="sessionID" value="12345678-09ab-1111-cdef" id="hidden-field">
+            <label for="name">Event Name:</label><br>
+            <input type="text" name="name" id="name"><br><br>
+            <label for="date">Event Date:</label><br>
+            <input type="date" name="date" id="date" class="center"><br><br>
+            <label for="time">Start time:</label><br>
+            <input type="time" name="time" id="time" class="center"><br><br>
+            <label for="distance">Distance (in miles):</label><br>
+            <input type="number" name="distance" id="distance" class="center"><br><br>
+            <label for="mpoint">Meeting point:</label><br>
+            <input type="text" name="mpoint" id="mpoint"><br><br>
+            <label for="notes">Enter notes (if applicable):</label><br>
+            <textarea name="notes" id="notes" rows="6" cols ="20" style="font-size: 1.8em"></textarea><br>
+            <div id="buttons">
+              <input type="submit" id="send" value="Submit">
+              <input type="reset" id="reset" value="Reset">
+            </div>
+           </form>
+         </div>
+       </div>
+     </main>
+     <footer>
+      <div id="footer-container">
+         OU Walking Club 2020
+      </div>
+     </footer>
+   </body>
+</html>
